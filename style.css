@@ -1,0 +1,156 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #600950;
+}
+
+header
+{
+    width:100% ;
+    height: 10vb;
+    background-color: #3B0631;
+    display: flex;
+    justify-content: space-between;
+}
+.trivia{
+    padding-left: 50px;
+    color: #F4D35E;
+    font-family: 'Handjet', cursive;
+    font-size: 64px;
+}
+.puntaje{
+    margin-top: 10px;
+    padding-right: 80px;
+    color: #F4D35E;
+    font-family: 'Handjet', cursive;
+    font-size: 50px;
+}
+
+.container {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    height: 90vh;
+}
+.rect{
+    width: 800px;
+    /* height: 450px; */
+    background-color: #3B0631;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: #600950;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+
+.new-content {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+  }
+  
+  .new-content h1 {
+    font-size: 90px;
+    color: #F4D35E;
+    font-family: 'Handjet', cursive;
+    margin: 0;
+  }
+  .new-content h2{
+    font-size: 35px;
+    color: #f0d87f;
+    font-family: 'Handjet', cursive;
+    margin: 6px;
+
+  }
+
+  .new-content input {
+    width: 50%;
+    height: 50px;
+    background-color: #46083a;
+    color: #F4D35E;
+    font-size: 40px;
+    margin: 25px;
+    border: 1px solid #46083a;
+    outline: none; 
+    text-align: center;
+    font-family: 'Handjet', cursive;
+  }
+  
+  .new-content button {
+    width: 150px;
+    height: 50px;
+    margin-top: 22px;
+    padding: 10px 10px;
+    background-color: #84086b;
+    font-family: 'Handjet', cursive;
+    font-size: 30px;
+    color: #ffa3c3;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+  }
+
+ 
+  
+  .new-content .hover-button:hover {
+    background-color: #ffa3c3;
+    color: #84086b;
+  }
+
+
+  .cat-content{
+    align-items: center;
+  }
+
+  .cat-content h1{
+    font-size: 65px;
+    color: #F4D35E;
+    font-family: 'Handjet', cursive;
+    /* margin: 0; */
+    margin: 24px 0;
+    text-align: center;
+  }
+
+  .categorias{
+    /* margin-top: 90px ; */
+    /* border: solid 4px red; */
+  }
+
+  #cat{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap:60px;
+   margin:40px 0;
+  }
+
+  #cat button{
+    cursor: pointer;
+    font-size: 27px ;
+    color : #f6cddc;
+    background-color: #84086b;
+    font-family: 'Londrina Solid', cursive;
+    /* border: #F4D35E  solid 3px; */
+    width: 200px;
+    height: 60px;
+    margin: auto;
+    border: none;
+    border-radius: 15px ;
+    transition: transform 0.3s; 
+  }
+
+  #cat button:hover{
+    transform: scale(1.2);
+  }
