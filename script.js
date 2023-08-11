@@ -98,7 +98,7 @@ function addElementsToRect(rect) {
 }
 
 function iterarCategoria() {
-    const apiUrl = 'http://www.trivia.somee.com/api/v1/categories';
+    const apiUrl = 'https://www.trivia.somee.com/api/v1/categories';
     fetch(apiUrl)
         .then(response => response.json())
         .then(data => mostrarData(data))
@@ -116,7 +116,7 @@ function iterarCategoria() {
 
 
 function mostrarDatosPorId(id) {
-    const apiPreguntas = 'http://www.trivia.somee.com/api/v1/questions';
+    const apiPreguntas = 'https://www.trivia.somee.com/api/v1/questions';
     fetch(apiPreguntas + '/' + id)
         .then(response => response.json())
         .then(data => mostrarDetalles(data))
